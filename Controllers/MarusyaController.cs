@@ -42,7 +42,7 @@ public class MarusyaController : ControllerBase
                     })).FirstOrDefault();
                 ResponseResponse resultResponse;
                 var cmd = requestModel.request.command;
-                if ((cmd.Contains("команда х") || cmd.Contains("команда x")) && cmd.Contains("вездеход"))
+                if ((cmd.Contains("команда х") || cmd.Contains("команда x")) && cmd.Contains("вездекод"))
                 {
                     resultResponse = new ResponseResponse
                     {
